@@ -1,7 +1,14 @@
 
-#Examples
+# google-feed-service
 
-## Symbols as an Array
+
+  [![Build Status](https://travis-ci.org/tomkp/google-feed-service.png)](https://travis-ci.org/tomkp/google-feed-service)
+
+
+
+##Examples
+
+### Symbols as an Array
 
 ```
     $.when(
@@ -12,7 +19,7 @@
 ```
 
 
-## Symbols as a String
+### Symbols as a String
 
 ```
     $.when(
