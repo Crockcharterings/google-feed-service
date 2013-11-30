@@ -3,7 +3,7 @@
 
     Simple browser-friendly micro service for the google feed api
 
-    [![Build Status](https://travis-ci.org/tomkp/google-feed-service.png)](https://travis-ci.org/tomkp/google-feed-service)
+  [![Build Status](https://travis-ci.org/tomkp/google-feed-service.png)](https://travis-ci.org/tomkp/google-feed-service)
 
 
 ### Example
