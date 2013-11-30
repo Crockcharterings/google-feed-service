@@ -1,6 +1,6 @@
 {
   "name": "google-feed-service",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Simple browser-friendly micro service for the google feed api",
   "keywords": ["browser", "client", "google", "feed", "micro-service"],
   "main": "index.js",
