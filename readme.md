@@ -1,30 +1,15 @@
 
 # google-feed-service
 
+    Simple browser-friendly micro service for the google feed api
 
-  [![Build Status](https://travis-ci.org/tomkp/google-feed-service.png)](https://travis-ci.org/tomkp/google-feed-service)
+    [![Build Status](https://travis-ci.org/tomkp/google-feed-service.png)](https://travis-ci.org/tomkp/google-feed-service)
 
 
+### Example
 
-##Examples
-
-### Symbols as an Array
 
 ```
-    $.when(
-        service(['LON:TSCO', 'LON:RDSA'])
-    ).then(
-        function (data) {}
-    );
-```
-
-
-### Symbols as a String
-
-```
-    $.when(
-        service('LON:TSCO,LON:RDSA')
-    ).then(
-        function (data) {}
-    );
+    var googleFeed = require('google-feed-service');
+    googleFeed('http://feeds.feedburner.com/CssTricks', function (data) { /* success */ }, function (data) { /* error */ });
 ```
