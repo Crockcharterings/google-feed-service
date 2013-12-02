@@ -11,5 +11,11 @@
 
 ```
     var googleFeed = require('google-feed-service');
-    googleFeed('http://feeds.feedburner.com/CssTricks', function (data) { /* success */ }, function (data) { /* error */ });
+    googleFeed('http://feeds.feedburner.com/CssTricks',
+        function (data) {
+            /* success */
+        },
+        function (data) {
+            /* error */
+        });
 ```
