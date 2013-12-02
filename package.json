@@ -1,6 +1,6 @@
 {
   "name": "google-feed-service",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple browser-friendly micro service for the google feed api",
   "keywords": ["browser", "client", "google", "feed", "micro-service"],
   "main": "index.js",
@@ -22,7 +22,7 @@
     "url": "git://github.com/tomkp/google-feed-service"
   },
   "author": "tomkp",
-  "license": "BSD-2-Clause",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/tomkp/google-feed-service/issues"
   }
